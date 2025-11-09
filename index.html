@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Top 5 Personal Values</title>
+  <style>
+    /* Base & layout */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 18px; /* larger base size for readability */
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    main {
+      padding: 20px 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Header / title */
+    header {
+      background-color: #9bc3ec;
+      color: white;
+      padding: 35px;
+      text-align: center;
+    }
+    /* Animated underline for the site title */
+    header .site-title {
+      display: inline-block;
+      position: relative;
+      font-size: 2.2rem; /* larger title size, similar to page2 */
+      line-height: 1.1;
+    }
+    header .site-title::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      height: 3px;
+      width: 0;
+      background: rgba(255,255,255,0.95);
+      transition: width .25s ease;
+    }
+    header .site-title:hover::after {
+      width: 100%;
+    }
+
+    /* Headings, paragraphs and lists */
+    h2 {
+      font-size: 1.4rem; /* larger section headings */
+      color: #a8cef4;
+      margin-top: 35px;
+    }
+    p {
+      font-size: 1.125rem; /* slightly larger body text */
+      line-height: 1.6;
+      color: #333;
+    }
+    ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Image: larger but responsive */
+    img {
+      display: block;
+      margin: 35px auto;
+      width: 100%;
+      max-width: 640px; /* larger max width */
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #ecf0f1;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="site-title">My Top 5 Personal Values</h1>
+    <p>by Royce • Fall 2025</p>
+  </header>
+  <main>
+    <img src="https://miro.medium.com/v2/resize:fit:1248/1*4p8OnuKLTNXvkdfcRYrJqA.jpeg" alt="Core Values Graphic" width="425">
+
+    <h2>Authenticity</h2>
+    <ul>
+      <li>I strive to be genuine in my words and actions.</li>
+      <li>I stay true to my beliefs, even under pressure.</li>
+      <li>I value transparency and honesty in relationships.</li>
+    </ul>
+
+    <h2>Determination</h2>
+    <ul>
+      <li>I pursue my goals with persistence and focus.</li>
+      <li>I embrace challenges as opportunities to grow stronger.</li>
+      <li>I don’t give up when things get tough—I push through.</li>
+    </ul>
+
+    <h2>Kindness</h2>
+    <ul>
+      <li>I treat others with compassion and empathy.</li>
+      <li>I offer help without expecting anything in return.</li>
+      <li>I believe small acts of kindness can make a big impact.</li>
+    </ul>
+
+    <h2>Diligence</h2>
+    <ul>
+      <li>I approach tasks with care, precision, and purpose.</li>
+      <li>I value doing things right—not just quickly.</li>
+      <li>Diligence reflects my commitment to excellence and follow-through.</li>
+    </ul>
+
+    <h2>Maturity</h2>
+    <ul>
+      <li>I take responsibility for my actions and choices.</li>
+      <li>I reflect before reacting and consider others’ perspectives.</li>
+      <li>Maturity is the thread that weaves together authenticity, determination, diligence, and kindness—it’s how I show up with wisdom and balance.</li>
+    </ul>
+
+    <nav>
+      <p><a href="industry.html">→ Learn about my role in the semiconductor industry!</a></p>
+    </nav>
+  </main>
+  <footer>
+    &copy; 2025 Royce's Core Values
+  </footer>
+</body>
+</html>
